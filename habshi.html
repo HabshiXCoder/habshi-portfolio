@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<!--
+  Portfolio: Habshi Ahamed
+  - Fully expanded: Deep details, personality, more cards, links, and animated effects
+  - Glassmorphism, modern color, animated gradients, iconography, A11y
+  - All sections popup with rich modal on click
+  - Responsive, human-written, and heavily commented
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Habshi Ahamed — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+<body>
+    <div class="floating-shapes">
+  <div class="fshape fshape1"></div>
+  <div class="fshape fshape2"></div>
+  <div class="fshape fshape3"></div>
+  <div class="fshape fshape4"></div>
+</div>
+  <!-- ================== HEADER ================== -->
+  <header class="site-header glass-blur">
+    <div class="container header-inner">
+      <a href="#hero" class="brand" aria-label="Go to top">
+        <span class="brand-name">Habshi</span><span class="brand-dot accent-dot">.</span>
+      </a>
+      <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="primaryNav" class="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><a class="nav-link" href="#references">References</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================== HERO ================== -->
+    <section id="hero" class="hero glass-blur fade-in">
+      <div class="container hero-inner">
+        <div class="hero-flex">
+          <div class="hero-dp">
+            <img src="images/Hbsy.jpg" alt="Portrait of Habshi Ahamed" class="dp-img glass-blur" />
+        </div>
+          <div class="hero-content">
+            <h1 class="hero-title">Hi — I'm <span class="accent">Habshi Ahamed</span></h1>
+            <p class="hero-sub">Full Stack Developer    | Front-End Developer <br><br>Back-End Developer    | Part-Time Lecturer    <br><br>System Administrator   | Web Developer</p>
+            <div class="hero-contact">
+              <span>📧 <a href="mailto:m.s.habshiahamed@gmail.com">m.s.habshiahamed@gmail.com</a></span>
+              <span>📱 <a href="tel:+94777393376">+94 77 739 3376</a> / <a href="tel:+94787171053">+94 78 717 1053</a></span>
+              <span>🌐 <a href="https://www.linkedin.com/in/habshi-ahamed?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">LinkedIn</a> | 
+                <a href="https://github.com/HabshiXCoder" target="_blank" rel="noopener">GitHub</a> | 
+                <a href="documents/HABSHI AHAMED.pdf" download>Download Resume (PDF)</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg-anim"></div>
+    </section>
+
+    <!-- ================== ABOUT ================== -->
+    <section id="about" class="section fade-up">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-card clickable glass-blur"
+               data-title="About Me"
+               data-details="
+                <p>I'm a dynamic software engineer with a creative mindset and a love for technology that improves lives. My journey began with curiosity: from automating school assignments to building community websites as a teen.<br><br>
+                <b>What drives me?</b> <ul>
+                  <li>Solving problems with elegant, scalable code</li>
+                  <li>Making data meaningful and accessible</li>
+                  <li>Designing for users first (always!)</li>
+                  <li>Learning something new every day</li>
+                </ul>
+                <b>Fun facts:</b> I love digital illustration, hackathons, and exploring mountain trails.
+                </p>
+                <b>Soft Skills:</b>
+                <ul>
+                  <li>Empathetic communication</li>
+                  <li>Collaboration & leadership</li>
+                  <li>Agile & remote teamwork</li>
+                  <li>Adaptability</li>
+                  <li>Resilience & growth mindset</li>
+                </ul>
+                <b>Languages:</b> English (Fluent), Sinhala (Native), Tamil (Basic)">
+            <div class="about-main">
+              <p>
+                Dynamic, creative, and people-focused. I thrive at the intersection of technology, design, and data.
+              </p>
+              <ul class="bullets">
+                <li>Full-stack & RESTful web development</li>
+                <li>Data analysis, reporting & dashboards</li>
+                <li>Database & API integration</li>
+                <li>UI/UX prototyping, design systems, accessibility</li>
+                <li>Automation & process improvement</li>
+              </ul>
+            </div>
+            <div class="about-extra">
+              <div>
+                <h4>Soft Skills</h4>
+                <ul class="bullets compact">
+                  <li>Communication</li>
+                  <li>Teamwork</li>
+                  <li>Problem-solving</li>
+                  <li>Organization</li>
+                  <li>Adaptability</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Languages</h4>
+                <ul class="bullets compact">
+                  <li>English — Fluent</li>
+                  <li>Sinhala — Communicative</li>
+                  <li>Tamil — Native</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <aside class="about-profile glass-blur">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:m.s.habshiahamed@gmail.com">m.s.habshiahamed@gmail.com</a></p>
+            <p>Phone: <a href="tel:+94777393376">+94 77 739 3376</a> / <a href="tel:+94787171053">+94 78 717 1053</a></p>
+            <p>Location: 126/5 Happugasthenna, Madawala Bazaar, Kandy</p>
+            <p>
+              <a href="https://www.linkedin.com/in/habshi-ahamed?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">LinkedIn</a> | 
+              <a href="https://github.com/HabshiXCoder" target="_blank" rel="noopener">GitHub</a>
+            </p>
+            <div class="profile-status glass-blur">
+                <span>🎓 BEng (Hons) Software Engineering (Top-Up), London Metropolitan University <b>(Currently Reading)</b></span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== PROJECTS ================== -->
+    <section id="projects" class="section alt-bg fade-up">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="card-grid">
+          <div class="card project-card clickable glass-blur"
+               data-title="SafeTrip Lanka"
+               data-details="
+                <b>Overview:</b> AI-driven platform for tourist safety and budget management.<br>
+                <b>Features:</b> Live GPS, dynamic pricing, emergency help, chatbot, multilingual, trip analytics.<br>
+                <b>Tech:</b> React, Node.js, Mapbox, Express, OpenAI API, Figma.<br>
+                <b>Highlights:</b> Designed full UI/UX, built core API, demoed to local travel startups. <br>
+                <b>Stage:</b> Prototype.">
+            <div class="card-image project1"></div>
+            <h3>SafeTrip Lanka</h3>
+            <div class="card-tags"><span>AI</span><span>JS</span><span>UX</span></div>
+            <p class="brief">Smart tourism: safety, planning, and insights for travelers.</p>
+          </div>
+          <div class="card project-card clickable glass-blur"
+               data-title="Bus Reservation System"
+               data-details="
+                <b>Overview:</b> CLI-based seat booking for bus operators and users.<br>
+                <b>Tech:</b> Java, OOP, Dijkstra's algorithm.<br>
+                <b>Features:</b> Seat maps, booking, shortest route, admin tools.<br>
+                <b>Learning:</b> Algorithmic rigor, test-driven logic, UX for CLI.">
+            <div class="card-image project2"></div>
+            <h3>Bus Reservation System</h3>
+            <div class="card-tags"><span>Java</span><span>Algorithm</span></div>
+            <p class="brief">Console app: seat booking & optimal routes.</p>
+          </div>
+          <div class="card project-card clickable glass-blur"
+               data-title="Sampath Food City – Sales Analysis"
+               data-details="
+                <b>Overview:</b> Data analytics for multi-branch retail.<br>
+                <b>Tech:</b> Python, Pandas, Matplotlib, Jupyter.<br>
+                <b>Features:</b> Branch/product analytics, time series, automated PDF reports.<br>
+                <b>Impact:</b> Provided actionable insights to management.">
+            <div class="card-image project3"></div>
+            <h3>Sampath Food City Analysis</h3>
+            <div class="card-tags"><span>Python</span><span>Data Viz</span></div>
+            <p class="brief">Retail data: dashboards & business insights.</p>
+          </div>
+          <div class="card project-card clickable glass-blur"
+               data-title="Griffindo Toys – POS System"
+               data-details="
+                <b>Overview:</b> Desktop POS for toy retail.<br>
+                <b>Tech:</b> C# .NET, SQL Server, WinForms.<br>
+                <b>Features:</b> Sales, inventory, barcode scan, secure DB.<br>
+                <b>Result:</b> Reduced checkout errors and improved reporting.">
+            <div class="card-image project4"></div>
+            <h3>Griffindo Toys POS</h3>
+            <div class="card-tags"><span>C#</span><span>SQL</span></div>
+            <p class="brief">Desktop app: retail POS & inventory.</p>
+          </div>
+          <div class="card project-card clickable glass-blur"
+               data-title="CCWC – Command-Line Word Counter"
+               data-details="
+                <b>Overview:</b> Versatile CLI for text processing.<br>
+                <b>Tech:</b> Python.<br>
+                <b>Features:</b> Word stats, undo, file checks, batch mode.<br>
+                <b>Learning:</b> CLI usability, extensibility, performance.">
+            <div class="card-image project5"></div>
+            <h3>CCWC (CLI)</h3>
+            <div class="card-tags"><span>Python</span><span>CLI</span></div>
+            <p class="brief">Text analysis & file utilities for scripts.</p>
+          </div>
+          <div class="card project-card clickable glass-blur"
+               data-title="Learning Management System"
+               data-details="
+                <b>Overview:</b> WinForms app for school management.<br>
+                <b>Tech:</b> C#, SQL Server.<br>
+                <b>Features:</b> Enrollments, attendance, grading, reporting.<br>
+                <b>Result:</b> Streamlined admin work, easy data exports.">
+            <div class="card-image project6"></div>
+            <h3>Learning Management System</h3>
+            <div class="card-tags"><span>C#</span><span>SQL</span></div>
+            <p class="brief">Admin & reporting tools for schools.</p>
+          </div>
+          <div class="card project-card clickable glass-blur"
+               data-title="School Magazines & Book Design"
+               data-details="
+                <b>Overview:</b> Designed creative layouts for school magazines, books, and events.<br>
+                <b>Tech:</b> Photoshop, CorelDRAW, Canva.<br>
+                <b>Impact:</b> Boosted engagement and school pride.<br>
+                <b>Skills:</b> Digital art, layout, print prep.">
+            <div class="card-image project7"></div>
+            <h3>School Magazines & Book Design</h3>
+            <div class="card-tags"><span>Photoshop</span><span>Design</span></div>
+            <p class="brief">Creative design for publications & events.</p>
+          </div>
+          <!-- More project cards (expand!) -->
+          <div class="card project-card clickable glass-blur"
+               data-title="Portfolio Website (This Site!)"
+               data-details="
+                <b>Overview:</b> Fully responsive, interactive personal site.<br>
+                <b>Tech:</b> HTML, CSS, Vanilla JS, glassmorphism, modal system.<br>
+                <b>Features:</b> Animations, popups, offline support, dark mode, A11y.<br>
+                <b>Learning:</b> Modern CSS, web accessibility, performance tuning.">
+            <div class="card-image project8"></div>
+            <h3>Personal Portfolio</h3>
+            <div class="card-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <p class="brief">This interactive & animated portfolio website.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== EXPERIENCE ================== -->
+    <section id="experience" class="section fade-up">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="card-grid">
+          <div class="card timeline-card clickable glass-blur"
+               data-title="Web Developer — Milton International Campus"
+               data-details="
+                <b>Web Developer</b> | Jan 2025 – Present<br>
+                <ul>
+                  <li> I worked as an Intern Web Developer while I am Working as an Part-Time Lecturer </li>
+                  <li> Assisted in developing and maintaining web applications for the Campus.</li>
+                  <li> Collaborated with faculty to integrate technology into the curriculum.</li>
+                  <li> Participated in code reviews and contributed to team knowledge sharing.</li>
+                  
+                </ul>">
+            <div class="card-image exp1"></div>
+            <h3>Web Developer</h3>
+            <div class="card-meta">Milton International Campus<br><span>Jan 2025 – Present</span></div>
+            <ul class="exp-bullets">
+              <li>Built & maintained websites</li>
+              <li>Ensured accessibility & performance</li>
+              <li>Staff CMS training</li>
+            </ul>
+          </div>
+          <div class="card timeline-card clickable glass-blur"
+               data-title="System Administrator Assistant — Milton International Campus"
+               data-details="
+                <b>System Administrator Assistant</b> | Jan 2025 – Jun 2025<br>
+                <ul>
+                  <li>Maintain Database of the Campus</li>
+                  <li>Maintain Learning Management System (LMS)</li>
+                  <li>Maintain Campus Mobile Application for the Students as an Assistant Administrator</li>
+                  <li>Assist in IT support and troubleshooting</li>
+                  <li>Document IT processes and create user guides</li>
+                  <li>Conduct user training sessions</li>
+                </ul>">
+            <div class="card-image exp2"></div>
+            <h3>System Admin Assistant</h3>
+            <div class="card-meta">Milton International Campus<br><span>Jan 2025 – Jun 2025</span></div>
+            <ul class="exp-bullets">
+              <li>Monitored servers, performed maintenance</li>
+              <li>Assisted users</li>
+              <li>Security & backup support</li>
+            </ul>
+          </div>
+          <div class="card timeline-card clickable glass-blur"
+               data-title="Part-time Lecturer — Milton International Campus"
+               data-details="
+                <b>Part-time Lecturer</b> | Jan 2025 – Jun 2025<br>
+                <ul>
+                  <li>Developed new project-based curriculum for introductory programming.</li>
+                  <li>Teach software engineering & IT courses.</li>
+                  <li>Maintain Students Academic progress</li>
+                  <li>Organized monthly coding workshops.</li>
+                </ul>">
+            <div class="card-image exp3"></div>
+            <h3>Part-time Lecturer</h3>
+            <div class="card-meta">Milton International Campus<br><span>Jan 2025 – Jun 2025</span></div>
+            <ul class="exp-bullets">
+              <li>Taught software engineering & IT</li>
+              <li>Guided projects</li>
+              <li>Mentored programming skills</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== EDUCATION ================== -->
+    <section id="education" class="section alt-bg fade-up">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="card-grid">
+          <div class="card timeline-card clickable glass-blur"
+               data-title="BEng (Hons) in Software Engineering"
+               data-details="
+                <b>BEng (Hons) Software Engineering (Top-Up)</b><br>
+                London Metropolitan University (UK) – ESOFT Metro Campus, Kandy<br>
+                Mar 2025 – Present<br>
+                <b>Focus:</b> Advanced software design, applied research, cloud, and DevOps.<br>
+                <b>Projects:</b> Capstone in AI-driven web apps.">
+            <div class="card-image ed1"></div>
+            <h3>BEng (Hons) Software Engineering</h3>
+            <div class="card-meta">London Metropolitan University<br><span>Mar 2025 – Present</span></div>
+          </div>
+          <div class="card timeline-card clickable glass-blur"
+               data-title="Pearson BTEC Level 5 HND in Computing"
+               data-details="
+                <b>Pearson BTEC Level 5 HND in Computing (Software Engineering)</b><br>
+                ESOFT Metro Campus, Kandy<br>
+                Jun 2023 – Jan 2025<br>
+                <b>Coursework:</b> App development, software engineering, group project leader.">
+            <div class="card-image ed2"></div>
+            <h3>HND in Computing</h3>
+            <div class="card-meta">ESOFT Metro Campus<br><span>Jun 2023 – Jan 2025</span></div>
+          </div>
+          <div class="card timeline-card clickable glass-blur"
+               data-title="Diploma in Information Technology"
+               data-details="
+                <b>Diploma in IT (SEG Qualification)</b><br>
+                ESOFT Metro Campus, Kandy<br>
+                Jun 2023 – Aug 2024<br>
+                <b>Coverage:</b> Networking, programming, IT systems.">
+            <div class="card-image ed3"></div>
+            <h3>Diploma in IT</h3>
+            <div class="card-meta">ESOFT Metro Campus<br><span>Jun 2023 – Aug 2024</span></div>
+          </div>
+          <div class="card timeline-card clickable glass-blur"
+               data-title="Diploma in Computerized Accounting & Bookkeeping"
+               data-details="
+                <b>Diploma in Computerized Accounting & Bookkeeping</b><br>
+                London School of Business and Social Sciences (Gatwick College), Sri Lanka<br>
+                Jun 2022 – Mar 2023<br>
+                <b>Subjects:</b> Bookkeeping software, accounts, financial record keeping.">
+            <div class="card-image ed4"></div>
+            <h3>Diploma – Accounting & Bookkeeping</h3>
+            <div class="card-meta">LSBSS<br><span>Jun 2022 – Mar 2023</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== SKILLS ================== -->
+    <section id="skills" class="section fade-up">
+      <div class="container">
+        <h2 class="section-title">Skills & Tools</h2>
+        <div class="card-grid">
+          <div class="card skill-card clickable glass-blur"
+               data-title="Programming Languages"
+               data-details="Python, Java, JavaScript, C#, HTML, CSS, React.js<br>
+               <b>Strengths:</b> Full-stack development, scripting, OOP, web & desktop apps, REST APIs, automation.">
+            <div class="card-image skill1"></div>
+            <h4>Programming</h4>
+            <p>Python · Java · JavaScript · C# · HTML · CSS · React.js</p>
+          </div>
+          <div class="card skill-card clickable glass-blur"
+               data-title="Frameworks & Libraries"
+               data-details="ASP.Net, Bootstrap, React.js, Node.js, Express, Chart.js, Mapbox.<br>
+               <b>Strengths:</b> Rapid UIs, scalable backends, data visualization, geospatial.">
+            <div class="card-image skill2"></div>
+            <h4>Frameworks & Libraries</h4>
+            <p>ASP.Net · Bootstrap · React.js · Node.js · Express</p>
+          </div>
+          <div class="card skill-card clickable glass-blur"
+               data-title="Data & Analysis"
+               data-details="Pandas, Matplotlib, Power BI, SPSS, Excel, SQL.<br>
+               <b>Strengths:</b> Data wrangling, reporting, insight generation, visualization.">
+            <div class="card-image skill3"></div>
+            <h4>Data & Analysis</h4>
+            <p>Pandas · Matplotlib · Power BI · SPSS · Excel</p>
+          </div>
+          <div class="card skill-card clickable glass-blur"
+               data-title="Database"
+               data-details="SQL Server, SQLite, MySQL, MongoDB, relational design, query optimization.<br>
+               <b>Strengths:</b> Schema design, data migrations, performance tuning, secure access.">
+            <div class="card-image skill4"></div>
+            <h4>Database</h4>
+            <p>SQL Server · MySQL · MongoDB · Relational design</p>
+          </div>
+          <div class="card skill-card clickable glass-blur"
+               data-title="Design Tools"
+               data-details="Adobe Photoshop, Illustrator, CorelDRAW, Canva, Figma<br>
+               <b>Strengths:</b> UI/UX, branding, digital art, print layouts, icons">
+            <div class="card-image skill5"></div>
+            <h4>Design Tools</h4>
+            <p>Photoshop · Illustrator · CorelDRAW · Figma · Canva</p>
+          </div>
+          <div class="card skill-card clickable glass-blur"
+               data-title="Practices"
+               data-details="OOP, SOLID, Design Patterns, Clean Code, TDD, Git, Agile/Scrum.<br>
+               <b>Strengths:</b> Maintainable architectures, testability, CI/CD, code reviews.">
+            <div class="card-image skill6"></div>
+            <h4>Practices</h4>
+            <p>OOP · SOLID · Design Patterns · Clean Code · Git · Agile</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- ================== CONTACT ================== -->
+    <section id="contact" class="section alt-bg fade-up">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <form id="contactForm" class="contact-form glass-blur" novalidate>
+          <div class="form-row">
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+            <input type="email" id="email" name="email" placeholder="Your email" required />
+          </div>
+          <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn glass-blur">Send Message</button>
+            <button type="reset" class="btn ghost glass-blur">Reset</button>
+          </div>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================== REFERENCES ================== -->
+    <section id="references" class="section fade-up">
+      <div class="container">
+        <h2 class="section-title">References</h2>
+        <div class="card-grid">
+          <div class="card ref-card clickable glass-blur"
+               data-title="R.M Malika Mihirani Rathnayake"
+               data-details="Teacher — K/Poojapitiya National School<br>📱 +94 762 780 808<br>📧 mmmkandy@gmail.com">
+            <h4>R.M Malika Mihirani Rathnayake</h4>
+            <p class="muted">Teacher — K/Poojapitiya National School</p>
+            <p>📱 +94 762 780 808 • 📧 <a href="mailto:mmmkandy@gmail.com">mmmkandy@gmail.com</a></p>
+          </div>
+          <div class="card ref-card clickable glass-blur"
+               data-title="I.W.M.R.K.T Illangakoon"
+               data-details="Teacher — K/Madina National School<br>📱 +94 77 757 9206<br>📧 enseignementfz@gmail.com">
+            <h4>I.W.M.R.K.T Illangakoon</h4>
+            <p class="muted">Teacher — K/Madina National School</p>
+            <p>📱 +94 77 757 9206 • 📧 <a href="mailto:enseignementfz@gmail.com">enseignementfz@gmail.com</a></p>
+          </div>
+          <div class="card ref-card clickable glass-blur"
+               data-title="G.G.N.K. Gallage"
+               data-details="Assistant Program Manager / Lecturer — ESOFT Metro Campus<br>📱 +94 77 309 9313<br>📧 Gallage@esoft.lk">
+            <h4>G.G.N.K. Gallage</h4>
+            <p class="muted">Assistant Program Manager / Lecturer — ESOFT Metro Campus</p>
+            <p>📱 +94 77 309 9313 • 📧 <a href="mailto:Gallage@esoft.lk">Gallage@esoft.lk</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer glass-blur">
+  <span class="footer-dot footer-dot1"></span>
+  <span class="footer-dot footer-dot2"></span>
+  <div class="container footer-flex">
+    <div class="footer-main">
+      <span class="footer-logo">
+        <span class="brand-name">Habshi</span><span class="brand-dot accent-dot">.</span>
+      </span>
+      <small>
+        &copy; 2025 Habshi Ahamed &mdash; Professional Portfolio
+      </small>
+      <div class="footer-credits">
+        Crafted with <span class="footer-heart" title="Love">❤️</span> and precision.<br>
+        Powered by <span class="footer-tech">HTML</span>, <span class="footer-tech">CSS</span>, <span class="footer-tech">JavaScript</span>
+      </div>
+      <div class="footer-contact">
+        <span><strong>Email:</strong> <a href="mailto:m.s.habshiahamed@gmail.com">m.s.habshiahamed@gmail.com</a></span>
+        <span><strong>Phone:</strong> <a href="tel:+94777393376">+94 77 739 3376</a></span>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/HabshiXCoder" target="_blank" rel="noopener" class="footer-social-link" aria-label="GitHub">
+          <svg width="19" height="19" viewBox="0 0 16 16" fill="currentColor"><path d="M8 .2a8 8 0 0 0-2.53 15.6c.4.07.55-.18.55-.39v-1.36c-2.23.48-2.7-1.08-2.7-1.08-.36-.92-.88-1.16-.88-1.16-.72-.5.05-.49.05-.49.8.06 1.22.82 1.22.82.71 1.21 1.87.86 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.97 0-.88.32-1.6.84-2.17-.09-.2-.37-1.01.08-2.1 0 0 .67-.22 2.2.83a7.7 7.7 0 0 1 2-.27c.68 0 1.37.09 2 .27 1.52-1.05 2.19-.83 2.19-.83.46 1.09.18 1.9.09 2.1.52.57.83 1.29.83 2.17 0 3.08-1.87 3.76-3.65 3.96.28.24.53.72.53 1.46v2.17c0 .22.15.47.56.39A8 8 0 0 0 8 .2z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener" class="footer-social-link" aria-label="LinkedIn">
+          <svg width="19" height="19" viewBox="0 0 16 16" fill="currentColor"><path d="M1.146 1.146A.5.5 0 0 1 1.5 1h13a.5.5 0 0 1 .5.5v13a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 .146-.354zm4.5 4.354A1 1 0 1 1 6.5 6.5 1 1 0 0 1 5.646 5.5zm-2 6.5H5V13H3.646V11.999zm1.354-.5c.564 0 .96.416.96.999 0 .584-.396.999-.96.999-.563 0-.96-.415-.96-.999s.397-.999.96-.999zm5.5 0c.564 0 .96.416.96.999 0 .584-.396.999-.96.999-.563 0-.96-.415-.96-.999s.397-.999.96-.999zm1.354-1.5V13h-1.354V9.5c0-.4-.145-.672-.508-.672-.277 0-.442.187-.514.367-.027.066-.034.158-.034.25V13H8.354s.018-6.512 0-7.186h1.354v.998h.02c.179-.275.5-.67 1.213-.67 1.044 0 1.826.682 1.826 2.146V13z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="#hero" class="footer-link">Home</a>
+        <a href="#about" class="footer-link">About</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#contact" class="footer-link">Contact</a>
+        <a href="documents/HABSHI AHAMED.pdf" download class="footer-link" title="Download Resume PDF">Resume</a>
+      </nav>
+      <span class="footer-note">Driven by integrity &bull; Committed to excellence</span>
+    </div>
+  </div>
+</footer>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modalTitle" aria-modal="true">
+    <div class="modal-panel glass-blur" role="document">
+      <button id="modalClose" class="modal-close" aria-label="Close details">&times;</button>
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
